@@ -1,18 +1,25 @@
+"use client";
 import "./rvldy-style.css";
 import Hero from "./Component/hero";
 import RiwayatPendidikan from "./Component/RiwayatPendidikan";
 import RiwayatPekerjaan from "./Component/RiwayatPekerjaan";
-import FavColor from "./Component/favColor";
+import SkillsSection from "./Component/skill";
 import ContactForm from "./Component/contactForm";
+import Hobby from "./Component/hobby";
+import MyInfo from "./Component/info";
+import ThemeSwitcher from "./Component/ThemeSwitcher";
 
 const Gallery = () => {
   return (
-    <section>
+    <section className="min-h-screen">
       <Hero />
       <RiwayatPendidikan />
       <RiwayatPekerjaan />
-      <FavColor />
+      <SkillsSection />
+      <MyInfo />
+      <Hobby />
       <ContactForm />
+      <ThemeSwitcher />
     </section>
   )
 }

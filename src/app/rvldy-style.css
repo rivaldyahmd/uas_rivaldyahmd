@@ -3,8 +3,13 @@
     margin: 15px auto;
     display: block;
     border: solid 5px rgba(0, 0, 0, 0.801);
-    box-shadow: 0 0 10px rgb(103, 225, 255);
+    box-shadow: 0 0 10px #9F1239;
     height: 200px;
     width: 200px;
     object-fit: cover;
+}
+
+h2 {
+    margin-top: 1rem;
+    /* Ini bisa menyebabkan jarak yang tidak diinginkan */
 }
